@@ -1,0 +1,39 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-eventstream (1.0.1)
+    aws-partitions (1.97.0)
+    aws-sdk-core (3.24.0)
+      aws-eventstream (~> 1.0)
+      aws-partitions (~> 1.0)
+      aws-sigv4 (~> 1.0)
+      jmespath (~> 1.0)
+    aws-sigv4 (1.0.3)
+    erubi (1.7.1)
+    jmespath (1.4.0)
+    mustermann (1.0.2)
+    puma (3.12.0)
+    rack (2.0.5)
+    rack-protection (2.0.3)
+      rack
+    revision_plate (0.1.2)
+      rack
+    sinatra (2.0.3)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.3)
+      tilt (~> 2.0)
+    tilt (2.0.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws-sdk-core
+  erubi
+  puma
+  revision_plate
+  sinatra
+
+BUNDLED WITH
+   1.16.1

@@ -21,6 +21,7 @@ ul {
         [
           ['CodeBuild', 'https://ap-northeast-1.console.aws.amazon.com/codebuild/home?region=ap-northeast-1#/projects'],
           ['CodePipeline', 'https://ap-northeast-1.console.aws.amazon.com/codepipeline/home?region=ap-northeast-1#/dashboard'],
+          ['S3 (Submissions)', 'https://ap-northeast-1.console.aws.amazon.com/s3/buckets/ioi18-cms-submissions-prd'],
         ].each do |name, url|
       -%>
         <li><a href="/login?relay=<%= URI.encode_www_form_component(url) %>"><%= name %></a></li>
